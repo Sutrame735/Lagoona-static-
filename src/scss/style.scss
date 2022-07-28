@@ -26,7 +26,6 @@ nav, footer, header, aside {
 html, body {
   height: 100%;
   width: 100%;
-  font-size: 100%;
   line-height: 1;
   font-size: 14px;
   -ms-text-size-adjust: 100%;
@@ -74,3 +73,42 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*----------------------------------------------------*/
+
+@font-face {
+  font-family: "Muller";
+  src: url("dist/fonts/MullerBold.woff2") format("woff2"),
+  url("dist/fonts/MullerBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("dist/fonts/MullerMedium.woff2") format("woff2"),
+  url("dist/fonts/MullerMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("dist/fonts/MullerRegular.woff2") format("woff2"),
+  url("dist/fonts/MullerRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+/*----------------------------------------------------------------------*/
+
+
+body {
+  font-size: 16px;
+  background: #E5E5E5;
+  font-family: Muller, sans-serif;
+}
+
+/*------------------------------------------*/
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
