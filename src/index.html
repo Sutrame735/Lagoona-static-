@@ -12,7 +12,9 @@
 <header class="header">
   <div class="container header__container">
     <div class="header__left header-left">
-      <img alt="logo" class="header-left__logo" src="img/header/header-logo.svg">
+      <a class="header-left__logo" href="">
+        <img alt="logo" class="header-left__logo" src="img/header/header-logo.svg">
+      </a>
       <a class="header-left__number" href="tel:">
         +7 495 322-54-48
       </a>
@@ -82,7 +84,7 @@
             <p class="suggestion-left__price">
               от 55 000 ₽
             </p>
-            <a class="suggestion-left__desc" href="#">
+            <a class="suggestion-left__desc " href="#">
               Подробнее
             </a>
           </div>
@@ -123,7 +125,7 @@
 </section>
 <section class="about">
   <div class="container about__container">
-    <h5 class="about__header header-padding-left">
+    <h5 class="about__header header-padding-left header-margin-bottom">
       О нас
     </h5>
     <p class="about__text">
@@ -139,7 +141,7 @@
 </section>
 <section class="services">
   <div class="container services__container">
-    <h6 class="services__header header-padding-left">
+    <h6 class="services__header header-padding-left header-margin-bottom">
       Услуги
     </h6>
     <ul class="services__list">
@@ -192,7 +194,7 @@
 </section>
 <section class="advantages">
   <div class="container advantages__container">
-    <h5 class="advantages__header header-padding-left">Преимущества</h5>
+    <h5 class="advantages__header header-padding-left header-margin-bottom">Преимущества</h5>
     <ul class="advantages__list">
       <li class="advantages__item">
         <img alt="icon" class="advantages__img advantages__img_size1" src="img/advantages/advantages-1.svg">
@@ -248,7 +250,7 @@
 </section>
 <section class="place">
   <div class="container place__container">
-    <div class="place__header header-padding-left">Размещение</div>
+    <div class="place__header header-padding-left header-margin-bottom">Размещение</div>
     <ul class="place__list">
       <li class="place__item">
         <img alt="img" class="place__img" src="img/place/place-1.jpg">
@@ -469,7 +471,7 @@
 </section>
 <section class="want">
   <div class="container want__container">
-    <h6 class="want__header">
+    <h6 class="want__header header-margin-bottom">
       Хочу тур
     </h6>
     <form action="#" class="want__form">
@@ -493,7 +495,7 @@
           <option class="want__option" value="Канада">Канада</option>
         </select>
       </div>
-      <div class="want__box-column want__box-column_night-tourist">
+      <div class="want__box-column">
         <label class="want__label" for="date">Дата прибытия</label>
         <input class="want__input" id="date" name="date" required type="date" value="2022-07-30">
       </div>
@@ -501,7 +503,7 @@
         <label class="want__label" for="night">Ночей</label>
         <input class="want__input" id="night" name="night" required type="number" value="1">
       </div>
-      <div class="want__box-column">
+      <div class="want__box-column want__box-column_night-tourist">
         <label class="want__label" for="tourist">Туристы</label>
         <input class="want__input" id="tourist" maxlength="1" name="tourist" required type="number" value="1">
       </div>
@@ -511,7 +513,7 @@
 </section>
 <section class="contacts">
   <div class="container contacts__container">
-    <h6 class="contacts__header header-padding-left">
+    <h6 class="contacts__header header-padding-left header-margin-bottom">
       Контакты
     </h6>
     <div class="contacts__box">
